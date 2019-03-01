@@ -1,0 +1,196 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin:0;
+    flex-direction: column;
+    display: flex;
+    
+
+}
+header{
+    background: #2F4F4F;
+    display: flex;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+}
+header ul{
+    list-style: none;
+    display: flex;
+}
+#logo{
+ margin: 0 auto;
+}
+#menu li{
+    padding: 10px;
+}
+#social-links li{
+    padding: 10px;
+}
+
+#intro{
+
+    width: 98%;
+    height: 350px;
+    margin-right: 1%;
+    margin-left: 1%;
+   background-image: url("./bg image.jpg");
+    color: white; 
+}
+
+#centre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+img{
+    margin: 0 auto;
+    border-radius: 50%;
+}
+#info{
+    color: rgb(27, 25, 25);
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 200px;
+    width: 30%;
+    
+
+}
+#info h3{
+    color: #2F4F4F;
+}
+span{
+    color:  #2F4F4F;
+}
+section table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bold{
+    font-weight: bold;
+}
+#about{
+    width:60%;
+   
+    height: 200px;
+    padding-left: 20px;
+    margin-top: 30px;
+   color: rgb(34, 31, 31);
+}
+#sec{
+    border:2px solid #eee;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#third{
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom:50px;  
+    border: 1px solid #eeee;
+    width:90%;
+    display: flex;
+    flex-direction: row;
+  }
+  #edu{
+      display: flex;
+      flex-direction:column;
+      justify-content:space-around;
+      width: 25%;
+      height: 300px;
+      margin-left: 20px;
+      margin-top: 50px;
+      padding-top: 100px;
+  }
+  .bar{
+      margin-left: 10%;
+      height: 15px;
+      border: 1px solid turquoise;
+      border-radius: 10px;
+  }
+  .c-language{
+     background: turquoise;
+     width: 500px;
+    
+  }
+  .oop{
+    background: turquoise;
+    width: 700px;
+     
+  }
+  .python{
+      background: turquoise;
+      widows: 350px;
+  }
+  .html{
+      background: turquoise;
+      width: 750x;
+    
+  }
+  .css{
+      background: turquoise;
+      width: 700px;
+  }
+  .js{
+      background:turquoise;
+      width: 400px;
+  }
+  section h4{
+      margin-right:75px;}
+   #bars h3{
+    color: #2F4F4F;
+
+   }  
+
+
+  #bars{
+      padding-left: 10px;
+      margin-top: 50px;
+      margin-left:20px;
+      width: 85%;
+      height: 600px;
+      
+  }
+  .headings{   
+      
+      color: #2F4F4F;
+  }
+#edu h2{
+    color: #2F4F4F;
+}
+#experience{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+    #experience h3{
+
+        color: #2F4F4F;
+    }
+
+#exp1{
+    padding: 10px 10px;
+    width: 40%;
+    height: 200px;
+    border: 1px solid #eeee;
+    margin: 0 auto;
+
+}
+#exp2{
+    padding: 10px 10px;
+    margin: 0 auto;
+    height: 200px;
+    width: 40%;
+    border: 1px solid #eeee;
+
+}
+
